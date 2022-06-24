@@ -89,8 +89,11 @@ $ cd <path da pasta no qual deseja criar o clone do repositório>
 
 $ git clone <url-do-seu-fork> 
 ```
+3. Apague a pasta assets e o arquivo README.md
 
-3. Adicione o requisito no repositório local e de o push para o repositório remoto que você gerou com o fork.
+4. Preencha o template, presente no arquivo template.md e renomei para README.md
+
+5. Adicione o requisito no repositório local e de o push para o repositório remoto que você gerou com o fork.
 
 ```
 $ git add .
@@ -100,13 +103,16 @@ $ git commit -m "mensagem"
 $ git push origin main/master
 ```
 
-4. Peça para um dos responsáveis pela administração do repositório criar a branch do seu requisito.
+6. Peça para um dos responsáveis pela administração do repositório criar a branch do seu requisito.
 
-5. Faça o pull request para o repositório selecionando a branch criada para o seu requisito.
+7. Faça o pull request para o repositório selecionando a branch criada para o seu requisito.
 
-Imagens do pull request.
+<img src="assets/pull.png">
 
-6. Agora é com nós de DPJ, analisaremos e aceitaremos seu requisito no repositório 😀
+
+<img src="assets/branch.png">
+
+8. Agora é com nós de DPJ, analisaremos e aceitaremos seu requisito no repositório 😀
 
 ---
 
@@ -114,3 +120,5 @@ Imagens do pull request.
 Qualquer dúvida contate um membro de DPJ :D
 
 ---
+
+- Gustavo Gimenez
