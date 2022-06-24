@@ -3,114 +3,70 @@
 </h1>
 
 <h1 align="center">
-HISTÓRICO DE REQUISITOS
+HEADER EM HTML/CSS (MODELO DE README)
 </h1>
 
-#  Indice 
+**Projeto:** Entrega do trainee <!-- projeto em que projeto o requisito foi implementado)-->
 
-- [Sobre](#-sobre)
-- [Como encontrar um requisito](#-como-encontrar-um-requisito)
-- [Como baixar um requisito](#-como-baixar-um-requisito)
-- [Como adicionar um requisito](#-como-adicionar-um-requisito)
-- [Dúvidas](#-dúvidas)
+**Desenvolvedor(es):** Gustavo Gimenez e Guilherme Salles <!--densenvolvedor(es) que implementataram o requisito-->
+
+**Data:** 31/08/2021 <!--data do registro da implementação-->
 
 ---
 
-## ❓ Sobre
-Bem vindos ao repositório de históricos de requisitos da byron 🥳
-
-Aqui ficarão registrados todos os requisitos diferentes que foram implementados pelos desenvolvedores da byron durante a execução dos projetos, como aquele carousel mais difícil de colocar no site ou aquele login com redes sociais com tutorial só em hebraico.
-
-Logo abaixo você encontrará explicações de como encontrar um requisito que está procurando, baixar esse requisito ou adicionar um requisito que você queira aqui no repositório.
-
-Aproveitem e usem sem moderação 😁
-
+# Indice
+- [Descrição](#-descrição)
+- [Implementação](#-implementação)
+- [Documentação](#-documentacao)
+- [Contato para dúvidas](#-contato-para-dúvidas)
 
 ---
 
-## 🔎 Como encontrar um requisito
+## 🖊️ **Descrição** 
 
-Para encontrar um requisito é muito simples, cada um está em uma branch especifica do nosso repositório, e logo na página inicial você encontrará o seguinte botão para acessar a lista de branchs:
+**Ferramentas utilizadas:** HTML, CSS e Bootstrap <!--tecnologias utilizadas na implementação do requisito-->
 
-<img src="assets/1.png">
+**Dificuldade de implementação:** 6/10 <!--dificuldade de 0 a 10, sendo 0 extramamente fácil e 10 extramamente difícil-->
 
-O botão te encaminhara para a seguinte página:
+**Tempo para implementação:** 5 horas <!--tempo gasto para implementação do requisito-->
 
-<img src="assets/2.png">
+**Preço cobrado:** R$100,00 <!--preço cobrado do cliente pelo requisito-->
 
-Você verá que as branchs estão nomeadas de formas especificas:
-**"tecnologia-nome_do_requisito"**
+<!--Aqui você colocará um texto descrevendo o requisito e uma imagem do mesmo-->
+O header se trata do cabeçalho feito para o site F1 Feeder Series, projeto para a entrega final do trainee, consiste em uma imagem na esquerda que leva a home e um menu na direita com botões que encaminham para as outras páginas do site, como pode ser visto na imagem a seguir:
 
-Portanto basta procurar pelo nome da tecnologia do requisito que está buscando e depois pelo nome do mesmo
-
-Quando encontrar, clique no nome do mesmo para acessar a branch e realizar o download 😀
-
-Caso o requisito não esteja lá ele ainda não foi registrado e infelizmente você terá de procurar em outro lugar pela internet, mas depois de implementar não se esqueça de voltar aqui para registra-lo  💙
+<img src="img/header.png">
 
 ---
 
-## 📁 Como baixar um requisito
+## 👨‍💻 **Implementação**
 
-Exitem 2 formas simples de baixarmos os requisitos, pela inteface do GitHub e pelo terminal, vamos aprender as duas aqui :D
+<!--Nessa seção, será descrita o passo a passo da implementação do requisito, você deve escrever todos os passos que julga necessário para que alguém consigo realizar a implementação consultando este documento-->
 
-**1. Pela Interface do GitHub:**
+**Passo 1:** Para a implementação do header, iniciamos colocando a tag header no html e uma classe
 
-1.1. O primeiro passo é encontrar o requisito que deseja, caso precise de ajuda, temos um tópico logo acima explicando como encontrar requisitos.
+**Passo 2:** Depois utilizamos a classe definida no passo 1 para definir seu tamanho no CSS
 
-1.2. Clique no botão de code, o botão abrirá um menu no qual disponibilizará o downloand para você, como indicado nas imagens abaixo:
-<img src="assets/3.png">
-
-
-<img src="assets/4.png">
-
-**2. Pelo Terminal:**
-
-2.1. Acesse a pasta do seu computador na qual deseja que o requisito seja baixado
-
-2.2. Utilize o comando git clone para clonar a branch para seu repositório.
-
-```
-$ cd <path da pasta no qual deseja deseja baixar o requisito>
-
-$ git clone -b <nome-da-branch> <url-do-repositório-de-requisitos> 
-```
----
-
-## 📦 Como adicionar um requisito
-
-1. Faça um fork do repositório de requisitos para o seu GitHub.
-
-<img src="assets/fork.png">
-
-2. Utilize o comando git clone para clonar o fork que você realizou para sua máquina.
-
-```
-$ cd <path da pasta no qual deseja criar o clone do repositório>
-
-$ git clone <url-do-seu-fork> 
-```
-
-3. Adicione o requisito no repositório local e de o push para o repositório remoto que você gerou com o fork.
-
-```
-$ git add .
-
-$ git commit -m "mensagem"
-
-$ git push origin main/master
-```
-
-4. Peça para um dos responsáveis pela administração do repositório criar a branch do seu requisito.
-
-5. Faça o pull request para o repositório selecionando a branch criada para o seu requisito.
-
-Imagens do pull request.
-
-6. Agora é com nós de DPJ, analisaremos e aceitaremos seu requisito no repositório 😀
+**Passo 3:** ...
 
 ---
 
-## 🤔 Dúvidas
-Qualquer dúvida contate um membro de DPJ :D
+## 📄 **Documentação**
+
+<!--Aqui ficará toda documentação utilizada para implementação do requisito, seja vídeo, texto, artigo, etc.-->
+
+- HTML: https://www.w3schools.com/tags/tag_header.asp
+
+- Bootstrap: https://getbootstrap.com/docs/4.1/components/navbar/
+
+- Curso Origamid: https://www.origamid.com/curso/web-design-completo/
+
+- Curso Bootstrap: https://www.youtube.com/watch?v=SmQMZ36hJJY&list=PLnDvRpP8Bnexu5wvxogy6N49_S5Xk8Cze
 
 ---
+
+## 📞 **Contato para dúvidas**
+
+**Telefone:** (99) 999999999 <!--Telefone do dev responsável pela implementação-->
+
+**Email:** gimenez.dogbelga@gmail.com <!--Email do dev resposável pela implementação-->
